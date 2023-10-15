@@ -25,4 +25,9 @@
 #CREATE DATABASE IF NOT EXISTS `dev_db_3` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_3`.* TO 'default'@'%' ;
 
-FLUSH PRIVILEGES ;
+################ LOCAL MODIFICATIONS FROM FORK ################
+
+#CREATE DATABASE IF NOT EXISTS `isplay_ca` COLLATE `utf8_general_ci`;
+#GRANT ALL ON `isplay_ca`.* TO 'default'@'%';
+
+#FLUSH PRIVILEGES ;
