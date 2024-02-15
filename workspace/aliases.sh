@@ -115,8 +115,8 @@ alias gc="git commit"
 alias gck="git checkout"
 
 # xdebug on/off
-alias xe="sed -i -r 's/^#*(.+)/\1/' /etc/php/8.2/cli/conf.d/20-xdebug.ini"
-alias xd="sed -i -r 's/^#*(.+)/#\1/' /etc/php/8.2/cli/conf.d/20-xdebug.ini"
+alias xe="sed -i -r 's/^#*(.+)/\1/' /etc/php/8.3/cli/conf.d/20-xdebug.ini"
+alias xd="sed -i -r 's/^#*(.+)/#\1/' /etc/php/8.3/cli/conf.d/20-xdebug.ini"
 
 # Create a new directory and enter it
 function mkd() {
