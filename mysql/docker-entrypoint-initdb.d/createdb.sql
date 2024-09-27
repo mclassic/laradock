@@ -27,7 +27,10 @@
 
 ################ LOCAL MODIFICATIONS FROM FORK ################
 
-#CREATE DATABASE IF NOT EXISTS `isplay_ca` COLLATE `utf8_general_ci`;
-#GRANT ALL ON `isplay_ca`.* TO 'default'@'%';
+CREATE DATABASE IF NOT EXISTS `isplay_ca` COLLATE `utf8_general_ci`;
+GRANT ALL ON `isplay_ca`.* TO 'default'@'%';
 
-#FLUSH PRIVILEGES ;
+CREATE DATABASE IF NOT EXISTS `isplay_test` COLLATE `utf8_general_ci`;
+GRANT ALL ON `isplay_test`.* TO 'default'@'%';
+
+FLUSH PRIVILEGES ;
